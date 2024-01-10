@@ -1,0 +1,15 @@
+.home-page header {
+    height: 10vh;
+    background-image: linear-gradient(rgba(20, 66, 66, 0.6), rgba(44, 66, 71, 0.1)), url(../../utils/images/home-page-header2.avif);
+}
+
+header {
+    background-size: cover;
+    background-position: right;
+}
+
+.blog-section {
+    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/blog-section-img.jpg);
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,108 @@
+.about-page header {
+    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/about-page-header.jpg);
+}
+
+/* Add this CSS to your existing styles or create a new CSS file */
+
+.bg-body-tertiary {
+    background-color: #f9f9f9; /* Set your desired background color */
+}
+  
+.container2 {
+    max-width: 1200px;
+    max-height: 500vh;
+    margin: 0 auto;  
+}
+
+h2 {
+    color: #080808; 
+}
+
+.testimonial {
+    text-align: center;
+    padding: 30px;
+    margin: 20px 0;
+    height: 43vh;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px; 
+    overflow: hidden; 
+}
+
+.pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    color: #000;
+    line-height: 1.5;
+}
+
+.testimonial-author {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #000; 
+    font-weight: bolder;
+}
+
+/* Add this CSS in your stylesheet or component */
+
+.card {
+    border: 1px solid #dee2e6;
+    display: flex;
+  flex-direction: column;
+  height: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    padding: 20px;
+    height: 60vh;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    color: #666;
+    font-size: 1rem;
+    /* margin-bottom: 15px; */
+  }
+  
+ 
+  
+  .explore-link {
+    color: blue; 
+    margin-top: 50px;
+    text-decoration: none;
+    font-weight: bold; 
+    align-self: flex-end;
+  margin-top: auto;
+  }
+  
+  .explore-link:hover {
+   
+    color: red;
+  }
+
+  .partner-logo-slide img {
+    max-height: 100px; /* Adjust the maximum height as needed */
+    width: auto;
+    margin: 0 auto; /* Center the logo within the slide */
+}
